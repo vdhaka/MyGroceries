@@ -13,7 +13,7 @@ int main()
   cout<<"\n (A)dd an item";
   cout<<"\n (Q)uit";
   cout<<"\nYour choice (A/Q): ";
-  cin>>input;
+  cin<<input;
 
   return 0;
 }
