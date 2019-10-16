@@ -1,4 +1,9 @@
 language: cpp
 os: linux
+addons:
+    apt:
+        packages:
+            - cppcheck
 script:
+    - cppcheck --error-exitcode=1 --enable=all
     - make
