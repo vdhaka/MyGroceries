@@ -5,5 +5,5 @@ addons:
         packages:
             - cppcheck
 script:
-    - cppcheck *.cpp --error-exitcode=1 --enable=all
+    - cppcheck *.cpp --error-exitcode=1 --enable=all --check-config
     - make
