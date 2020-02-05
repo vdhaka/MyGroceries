@@ -6,7 +6,7 @@ int main()
 {
   //string list[5]; //array of 5 strings
   //int numItems = 0;
-  char input;
+  char input
 
   cout<<"\n==GROCERY LIST MANAGER==";
   cout<<"\nEnter your choice: ";
