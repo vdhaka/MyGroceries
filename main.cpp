@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-  string list[5]; //array of 5 strings
-  int numItems = 0;
+  //string list[5]; //array of 5 strings
+  //int numItems = 0;
   char input;
 
   cout<<"\n==GROCERY LIST MANAGER==";
