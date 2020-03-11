@@ -1,2 +1,2 @@
 all:
-	g++ -fanalyzer -Wfatal-errors main.cpp
+	g++ -Wfatal-errors main.cpp
