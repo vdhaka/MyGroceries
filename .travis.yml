@@ -1,4 +1,6 @@
 language: cpp
 os: linux
 script:
-    - scan-build -v -v -v --status-bugs make
+    - pip install cpplint
+    - cpplint *.cpp
+    - scan-build --status-bugs make
