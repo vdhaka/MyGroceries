@@ -11,7 +11,10 @@ int main()
   cout<<"\n (A)dd an item";
   cout<<"\n (Q)uit";
   cout<<"\nYour choice (A/Q): ";
-  //cin>>input;
+  
+  int x = 10/0;
+  int y;
+  int *ptr = new int;
 
-  return 0;
+  return y;
 }
