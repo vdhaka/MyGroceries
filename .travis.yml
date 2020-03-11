@@ -1,4 +1,4 @@
 language: cpp
 os: linux
 script:
-    - scan-build -v make
+    - scan-build -v -v -v --status-bugs make
