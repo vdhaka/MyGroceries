@@ -1,20 +1,30 @@
 #include<iostream>
-#include<string>
+#include<vector>
 using namespace std;
 
 int main()
 {
   char input;
+  vector <string> list;
 
-  cout<<"\n==GROCERY LIST MANAGER==";
-  cout<<"\nEnter your choice: ";
-  cout<<"\n (A)dd an item";
-  cout<<"\n (Q)uit";
-  cout<<"\nYour choice (A/Q): ";
-  
-  int x = 10/0;
-  int y;
-  int *ptr = new int;
+  do
+  {
+    cout<<"\n==GROCERY LIST MANAGER==";
+    cout<<"\nEnter your choice: ";
+    cout<<"\n (A)dd an item";
+    cout<<"\n (Q)uit";
+    cout<<"\nYour choice (A/Q): ";
+    cin>>input;
 
-  return y;
+    if( input == 'a' || input == 'A' )
+    {
+        string item;
+        cout<<"What item? ";
+        cin.ignore();
+        getline(cin,item);
+        list.push_back(item);
+    }
+  }while( input != 'q' && input != 'Q' );
+    
+  return 0;
 }
