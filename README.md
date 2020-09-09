@@ -1,1 +1,1 @@
-This is a command line application for managing your grocery list
+https://travis-ci.com/vdhaka/MyGroceries.svg?branch=master
